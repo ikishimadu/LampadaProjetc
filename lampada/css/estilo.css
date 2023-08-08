@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(rgb(219, 110, 128), rgb(88, 196, 196));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.central{
+    width: 500px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px; /* da afastamento */
+    border-radius: 18px;
+}
+
+.central button{
+    padding: 10px 50px;
+    background: rgb(224, 90, 41);
+    border-radius: 10px;
+    color: black;
+    border: none;
+    outline: none; 
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.central button:hover{
+    background: rgb(11, 173, 111);
+    padding: 12px 54px;
+    font-size: 22px;
+}
